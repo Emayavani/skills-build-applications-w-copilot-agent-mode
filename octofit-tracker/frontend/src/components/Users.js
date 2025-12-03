@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Users = () => {
   const [users, setUsers] = useState([]);
-  const apiUrl = `${process.env.REACT_APP_CODESPACE_URL}/api/users/`;
+  const apiUrl = "https://miniature-cod-jjvq7gpwxpj52p4wp-8000.app.github.dev/api/users/";
 
   useEffect(() => {
     console.log('Fetching Users from:', apiUrl);
