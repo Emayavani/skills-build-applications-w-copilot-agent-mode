@@ -6,7 +6,7 @@ function App() {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
             <Link className="navbar-brand text-white d-flex align-items-center" to="/">
-              <img src={logo} alt="OctoFit Logo" className="App-logo" />
+                      <img src="/logo192.png" alt="OctoFit Logo" className="App-logo" />
               OctoFit Tracker
             </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,5 +36,5 @@ function App() {
   );
 }
 
-  import logo from '../public/logo192.png';
+  // Logo import removed; use public path in img src
 export default App;
